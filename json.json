@@ -1,0 +1,11 @@
+[
+	{
+		"semester": "first",
+		"coreAreas": [
+			{ "interaction": "skills":[blabla], "knowledge":[aaa], "competences":[nana]},
+			{ "design": "skills":[], "knowledge":[], "competences":[]},
+			{ "communication": "skills":[], "knowledge":[], "competences":[]},
+			{ "business": "skills":[], "knowledge":[], "competences":[]}
+			]
+	}
+]
