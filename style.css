@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #cdd8d4;
+}
+
+.topnav ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    display: grid;
+    width: 16%;
+    color: #56272d;
+    text-align: center;
+    padding: 11px 0;
+    text-decoration: none;
+    font-size: 17px;
+    }
+#a-logo {
+    padding: 0 0 0 30px;
+    margin: 0;
+}
+
+#kea-logo {
+    max-width: 130px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  padding-bottom: 15px;
+}
+
+ .active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {display: none;}
+    #a-logo {
+        display: block
+    }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+a#hide-in-mobile.hover {
+    background-color: #cdd8d4;
+    cursor: default;
+}
+
+a#a-logo.hover {
+    background-color: #cdd8d4;
+}
+
+ #hide-in-mobile {
+            visibility: hidden;
+        }
+
+@media screen and (max-width: 750px) {
+    #hide-in-mobile {
+            display: none;
+        }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: inline;
+
+    text-align: left;
+      max-width: 100%;
+  }
+
+    ul:not(:first-child){
+        padding: 5px 25px;
+    }
+
+    a.icon {
+        position: absolute;
+        top: 0;
+        right: 5px;
+    }
+
+    #hide-in-mobile {
+            display: none;
+        }
+}
+
