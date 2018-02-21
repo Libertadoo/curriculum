@@ -107,3 +107,37 @@ a#a-logo.hover {
         }
 }
 
+
+/*   CSS for the slideshow animation can be used for all  */
+.mySlides {
+            display:none;
+        }
+
+.w3-section {
+    display: block;
+    margin: auto;
+    padding: 4% 0 5% 0;
+    width: 80%;
+}
+
+img.mySlides {
+    width: 2000px;
+}
+
+/*  CSS for home page, h1 & text */
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 5% 0 0% 0;
+}
+
+.text-columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    padding: 5% 23%;
+    background-color: #cdd8d4;
+}
+
+
